@@ -78,6 +78,21 @@ fun main() {
 //    } else {
 //        println("you're too young")
 //    }
+//    var age = 21
+//    when(age) {
+//        !in 0..20 -> println("now you may drink in the US")
+//        in 18..20 -> println("you may vote now")
+//        16, 17 -> println("you may drive now")
+//        else -> println("you're too young")
+//    }
+
+//    var x : Any = "13.37f"
+//    when(x) {
+//        is Int -> println("$x is an Int")
+//        !is Double -> println("$x is not a Double")
+//        is String -> println("$x is a String")
+//        else -> println("$x is none of the above")
+//    }
 
 //    var name = "Denis"
 //    if(name == "Denis") {
@@ -91,23 +106,67 @@ fun main() {
 //    if(isRainy)
 //        println("It's Rainy")
 
-    var season = 3
-    when(season) {
-        1 -> println("Spring")
-        2 -> println("Summer")
-        3 -> {
-            println("Fall")
-            println("Autumn")
-        }
-        4 -> println("Winter")
-        else -> println("Invalid Season")
-    }
+//    var season = 3
+//    when(season) {
+//        1 -> println("Spring")
+//        2 -> println("Summer")
+//        3 -> {
+//            println("Fall")
+//            println("Autumn")
+//        }
+//        4 -> println("Winter")
+//        else -> println("Invalid Season")
+//    }
+//
+//    var month = 3
+//    when(month) {
+//        in 3..5 -> println("Spring")
+//        in 6..8 -> println("Summer")
+//        in 9..11 -> println("Fall")
+//        in 12 downTo 2 -> println("Winter")
+//    }
 
-    var month = 3
-    when(month) {
-        in 3..5 -> println("Spring")
-        in 6..8 -> println("Summer")
-        in 9..11 -> println("Fall")
-        in 12 downTo 2 -> println("Winter")
-    }
+
+    //While loop
+//    var x = 100
+//    while(x >= 0) {
+//        print("$x")
+//        x -= 2
+//    }
+//    println("\n while loop is done")
+//
+//    x = 15
+//    do {
+//        print("$x")
+//        x++
+//    }while (x <= 10)
+//    println("\n do while loop is done")
+//
+//    var feltTemp = "cold"
+//    var roomTemp = 10
+//    while (feltTemp == "cold") {
+//        roomTemp++
+//        if(roomTemp >= 20) {
+//            feltTemp = "comfy"
+//            println("it's comfy now")
+//        }
+//    }
+
+//    for(num in 1..10) {
+//        print("$num")
+//    }
+//
+//    for(i in 1 until 10) { // Same as - for(i in 1.until(10))
+//        print("$i ")
+//    }
+//    println("-----------------------")
+//    for(i in 10 downTo 1 step 2) { // Same as - for(i in 10.downTo(1).step(2))
+//        print("$i ")
+//    }
+
+    var z = 12
+    do {
+        print("$z ")
+    } while(z <= 10)
+
 }
