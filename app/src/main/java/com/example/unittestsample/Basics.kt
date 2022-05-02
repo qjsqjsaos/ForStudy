@@ -1,7 +1,11 @@
 package com.example.unittestsample
 
 fun main() {
-    for(i in 1 until 20) {
-      print("$i ")
-    }
+
 }
+
+//class MobilePhone (osName: String = "", brand: String, model: String) {
+//    init {
+//        println("osName: $osName, brand: $brand, model: $model")
+//    }
+//}
